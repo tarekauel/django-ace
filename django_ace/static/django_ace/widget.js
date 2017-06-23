@@ -80,15 +80,6 @@
             minlines = widget.getAttribute('data-minlines'),
             maxlines = widget.getAttribute('data-maxlines'),
             showprintmargin = widget.getAttribute('data-showprintmargin'),
-            toolbar = prev(widget),
-            main_block = toolbar.parentNode;
-
-        // Toolbar maximize/minimize button
-        var min_max = toolbar.getElementsByClassName('django-ace-max_min');
-        min_max[0].onclick = function() {
-            minimizeMaximize(widget, main_block, editor);
-            return false;
-        };
 
         editor.getSession().setValue(textarea.value);
 
