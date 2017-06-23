@@ -79,7 +79,7 @@
             wordwrap = widget.getAttribute('data-wordwrap'),
             minlines = widget.getAttribute('data-minlines'),
             maxlines = widget.getAttribute('data-maxlines'),
-            showprintmargin = widget.getAttribute('data-showprintmargin'),
+            showprintmargin = widget.getAttribute('data-showprintmargin')
 
         editor.getSession().setValue(textarea.value);
 
